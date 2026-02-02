@@ -1,17 +1,3 @@
-#source /yunity/poil08/hugging_face/.venv/bin/activate
-
-"""
-python save_timesteps_modelA.py \
-  --model_a /yunity/poil08/hugging_face/hf_cifar10_ddpm_rgb_seed0 \
-  --out_dir /yunity/poil08/cifar_branch/modelA_seed0_saved_xt \
-  --num_samples 64 --batch_size 64 \
-  --channels 3 \
-  --prefer_ema \
-  --repro_flags \
-  --save_xt_png \
-  --save_timesteps 999 900 800 700 600 500 400 300 200 100 0
-"""
-
 #!/usr/bin/env python3
 import os, json, argparse, hashlib
 from typing import List, Dict, Any
