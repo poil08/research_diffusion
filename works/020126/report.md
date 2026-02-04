@@ -1,0 +1,22 @@
+Feb 1
+
+1. Trying to save images generated from Model_A(Cifar-10, seed=0) at each time step(999, 900, 800, …, 100, 0).
+2. The trouble we’re facing is that those saved images don't look quite right.
+3. Problems solved, we can see the images (model’s prediction) at each time step we want.
+
+Command used:
+
+python save_timesteps.py \
+  --model_a /yunity/poil08/hugging_face/hf_cifar10_ddpm_rgb_seed0 \
+  --out_dir /yunity/poil08/cifar_branch/modelA_seed0_saved_xt \
+  --num_samples 64 --batch_size 64 \
+  --channels 3 \
+  --prefer_ema \
+  --repro_flags \
+  --save_xt_png \
+  --save_timesteps 999 900 800 700 600 500 400 300 200 100 0
+
+x0pred: what the model believes the final image should be at that moment
+xt_quickview: what xt roughly looks like if we force it into image range (high-dimensional noisy tensor)
+
+Noise tensor is the entire image presentation after noise has been mixed in according to a precise schedule
