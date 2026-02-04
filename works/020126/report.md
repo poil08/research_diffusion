@@ -17,9 +17,8 @@ python save_timesteps.py \
   --save_timesteps 999 900 800 700 600 500 400 300 200 100 0
 
 x0pred: what the model believes the final image should be at that moment
-xt_quickview: what xt roughly looks like if we force it into image range (high-dimensional noisy tensor)
 
-Noise tensor is the entire image presentation after noise has been mixed in according to a precise schedule
+xt_quickview: what xt roughly looks like if we force it into image range (high-dimensional noisy tensor)
 
 ## Diffusion Denoising Timeline
 
