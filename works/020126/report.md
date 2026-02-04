@@ -1,5 +1,3 @@
-Feb 1
-
 1. Trying to save images generated from Model_A(Cifar-10, seed=0) at each time step(999, 900, 800, …, 100, 0).
 2. The trouble we’re facing is that those saved images don't look quite right.
 3. Problems solved, we can see the images (model’s prediction) at each time step we want.
