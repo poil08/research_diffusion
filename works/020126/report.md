@@ -20,3 +20,11 @@ x0pred: what the model believes the final image should be at that moment
 xt_quickview: what xt roughly looks like if we force it into image range (high-dimensional noisy tensor)
 
 Noise tensor is the entire image presentation after noise has been mixed in according to a precise schedule
+
+## Diffusion Denoising Timeline
+
+### Model A (Seed=0) Denoising Trajectory (x0 Predictions)
+![x0 timeline](timeline_x0pred_batch00.png)
+
+### Noisy Latent States (xt Quickview)
+![xt timeline](timeline_xt_quickview_batch00.png)
