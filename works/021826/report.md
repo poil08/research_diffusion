@@ -34,7 +34,7 @@ AFTER
 
 4) Trying to figure out how I could have the model's reproducibility even without the presense of step seed
 
-5) Editted the script to not have step seed, ran it twice with noise seed given at 1234
+5) Edited the script to not have step seed, ran it twice with noise seed given at 1234
 
 <p align="center">
   <img src="final_grid_nostep_first.png" width="45%" />
