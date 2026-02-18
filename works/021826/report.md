@@ -31,3 +31,5 @@ AFTER
   <img src="final_grid_first.png" width="45%" />
   <img src="final_grid_second.png" width="45%" />
 </p>
+
+4) Trying to figure out how I could have the model's reproducibility even without the presense of step seed
