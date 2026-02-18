@@ -7,6 +7,7 @@
 3) Replaced the code block; references below
 
 BEFORE
+
     g_noise = torch.Generator(device="cpu")
     if noise_seed is not None:
         g_noise.manual_seed(int(noise_seed))
@@ -15,6 +16,7 @@ BEFORE
     if step_seed is not None:
         g_step.manual_seed(int(step_seed))
 AFTER
+
     g_noise = None
     if noise_seed is not None:
         g_noise = torch.Generator(device="cpu").manual_seed(int(noise_seed))
