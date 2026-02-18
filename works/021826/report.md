@@ -4,4 +4,23 @@
 
 2) Checked the json file of scheduler; didn't find anything that could possibly interrupt the model's generalizability randomness
 
- 
+3) Replaced the code block; references below
+
+BEFORE
+    g_noise = torch.Generator(device="cpu")
+    if noise_seed is not None:
+        g_noise.manual_seed(int(noise_seed))
+
+    g_step = torch.Generator(device="cpu")
+    if step_seed is not None:
+        g_step.manual_seed(int(step_seed))
+AFTER
+    g_noise = None
+    if noise_seed is not None:
+        g_noise = torch.Generator(device="cpu").manual_seed(int(noise_seed))
+
+    g_step = None
+    if step_seed is not None:
+        g_step = torch.Generator(device="cpu").manual_seed(int(step_seed))
+
+ Now, the images generated without setting "Noise Seed" at two different times look different
