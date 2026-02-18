@@ -26,4 +26,8 @@ AFTER
         g_step = torch.Generator(device="cpu").manual_seed(int(step_seed))
 
  Now, the images generated without setting "Noise Seed" at two different times look different
-![first](final_grid_first.png) / ![second](final_grid_second.png)
+
+<p align="center">
+  <img src="final_grid_first.png" width="45%" />
+  <img src="final_grid_second.png" width="45%" />
+</p>
