@@ -1,3 +1,9 @@
-![Injection Timeline Grid](injection_timeline_grid.png)
+<p align="center">
+  <img src="figures/injection_timeline_grid.png" width="900">
+</p>
 
-![LPIPS Plot](lpips_plot.png)
+</br>
+
+<p align="center">
+  <img src="figures/lpips_plot.png" width="700">
+</p>
