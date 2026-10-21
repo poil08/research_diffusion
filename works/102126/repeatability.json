@@ -1,0 +1,6 @@
+{
+  "all_requested_states_exact_on_repeat": true,
+  "noise_a_exact": true,
+  "noise_b_exact": true,
+  "selection_exact": true
+}
