@@ -1,0 +1,41 @@
+{
+  "source_preparation_manifest_sha256": "bcfa06a74c417db4ad2a0595a3465a3009777ed27c8d9ebc05b08a2647dbcb1b",
+  "source_analysis_manifest_sha256": "f98e4290c1433410bd9adb4278226f4e8016be4cf805961a6960f4f8bea7fbea",
+  "selection": "First three saved image IDs, selected before visual inspection",
+  "conditions": [
+    "clean",
+    "t_0000",
+    "t_0250",
+    "t_0500",
+    "t_0750",
+    "t_0999",
+    "pure_noise"
+  ],
+  "color_scale": [
+    0,
+    5.478997032097404
+  ],
+  "color_scale_scope": "All 16 images, both banks, all 10 saved conditions",
+  "raw_to_saved_spectrum_max_absolute_error": 1.27675647831893e-15,
+  "verified_spectrum_images": 224,
+  "outputs": [
+    {
+      "file": "image_spectrum_train_13573.png",
+      "sample_id": "train_13573",
+      "class_name": "frog",
+      "sha256": "5d28c0580330b9a278837e3ec012d2fbd7837b166bb3aaee5930c7f9a1fdad68"
+    },
+    {
+      "file": "image_spectrum_train_43420.png",
+      "sample_id": "train_43420",
+      "class_name": "deer",
+      "sha256": "24df4a7eaf16176a8f814935f294c5aaa912a240723066b05a163a534f604ffa"
+    },
+    {
+      "file": "image_spectrum_train_31344.png",
+      "sample_id": "train_31344",
+      "class_name": "cat",
+      "sha256": "d0920af1152745276b5f010fb86f4f533dd83bdeb16097fc5e01170ac2126091"
+    }
+  ]
+}
