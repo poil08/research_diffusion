@@ -1,0 +1,82 @@
+[
+  {
+    "class_name": "airplane",
+    "dataset_index": 37189,
+    "group": "selection",
+    "label": 0,
+    "sample_id": "train_37189",
+    "selection_position": 4
+  },
+  {
+    "class_name": "automobile",
+    "dataset_index": 28268,
+    "group": "selection",
+    "label": 1,
+    "sample_id": "train_28268",
+    "selection_position": 14
+  },
+  {
+    "class_name": "bird",
+    "dataset_index": 38592,
+    "group": "selection",
+    "label": 2,
+    "sample_id": "train_38592",
+    "selection_position": 0
+  },
+  {
+    "class_name": "cat",
+    "dataset_index": 24868,
+    "group": "selection",
+    "label": 3,
+    "sample_id": "train_24868",
+    "selection_position": 6
+  },
+  {
+    "class_name": "deer",
+    "dataset_index": 3308,
+    "group": "selection",
+    "label": 4,
+    "sample_id": "train_03308",
+    "selection_position": 21
+  },
+  {
+    "class_name": "dog",
+    "dataset_index": 12431,
+    "group": "selection",
+    "label": 5,
+    "sample_id": "train_12431",
+    "selection_position": 9
+  },
+  {
+    "class_name": "frog",
+    "dataset_index": 20981,
+    "group": "selection",
+    "label": 6,
+    "sample_id": "train_20981",
+    "selection_position": 2
+  },
+  {
+    "class_name": "horse",
+    "dataset_index": 15120,
+    "group": "selection",
+    "label": 7,
+    "sample_id": "train_15120",
+    "selection_position": 7
+  },
+  {
+    "class_name": "ship",
+    "dataset_index": 49330,
+    "group": "selection",
+    "label": 8,
+    "sample_id": "train_49330",
+    "selection_position": 1
+  },
+  {
+    "class_name": "truck",
+    "dataset_index": 48371,
+    "group": "selection",
+    "label": 9,
+    "sample_id": "train_48371",
+    "selection_position": 3
+  }
+]
